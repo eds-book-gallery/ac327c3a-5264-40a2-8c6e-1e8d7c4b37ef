@@ -10,7 +10,7 @@ dependencies:
   - jupyter
   - hvplot
   - cartopy
-  - pandas
+  - pandas==2.2.1
   - iris
   - imageio
   - dask
