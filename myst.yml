@@ -1,0 +1,88 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook.yml
+project:
+  id: ac327c3a-5264-40a2-8c6e-1e8d7c4b37ef
+  title: Exploring Land Cover Data (Impact Observatory) (Jupyter Notebook) published in the Environmental Data Science book
+  short_title: Land Cover Data (Impact Observatory)
+  abstract: Notebook developed to introduce manipulation and exploratory analysis of classified land use and cover data, using example data created by Impact Observatory from ESA Sentinel-2 imagery.
+  authors:
+    - id: acoca
+      name: Alejandro Coca-Castro
+      orcid: 0000-0002-9264-1539
+      corresponding: true
+      email: acoca@turing.ac.uk
+      url: https://github.com/acocac
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - turing
+  reviewers:
+    - id: tandersson
+      name: Tom R. Andersson
+      orcid: 0000-0002-1556-9932
+      url: https://github.com/tom-andersson
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - bas
+    - id: nbarlow
+      name: Nick Barlow
+      orcid: 0000-0003-3284-5342
+      url: https://github.com/nbarlowATI
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - turing
+  affiliations:
+    - id: turing
+      name: The Alan Turing Institute
+    - id: bas
+      name: British Antarctic Survey
+  subject: Cryosphere
+  keywords:
+    - environmental data science
+    - polar
+    - modelling
+    - deep learning
+  funding: The IceNet project was supported by Wave 1 of The UKRI Strategic Priorities Fund under the EPSRC Grant EP/T001569/1, particularly the AI for Science’ theme within that grant and The Alan Turing Institute.
+  venue:
+    title: Environmental Data Science Book
+    short_title: EDS Book
+    url: https://www.edsbook.org
+  issue:
+    name: Standard
+  thumbnail: images/thumbnail.png
+  requirements:
+    - environment.yml
+  doi: 10.5281/zenodo.8311332
+  github: https://github.com/eds-book/ac327c3a-5264-40a2-8c6e-1e8d7c4b37ef
+  jupyter:
+    binder:
+      repo: eds-book/ac327c3a-5264-40a2-8c6e-1e8d7c4b37ef
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  date: 2024-09-13
+  toc:
+    - file: notebook.ipynb
+  exports:
+    - format: pdf
+      template: curvenote
+      article: notebook.ipynb
+      output: exports/notebook.pdf
+    - format: cff
+      type: software
+      version: v2.0.0
+      license: MIT
+      license-url: https://opensource.org/license/MIT
+  bibliography:
+    - references.bib
+
+site:
+  template: book-theme
