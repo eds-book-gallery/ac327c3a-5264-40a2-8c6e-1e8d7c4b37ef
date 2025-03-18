@@ -5,12 +5,12 @@ channels:
 dependencies:
   - python=3.9
   - datashader
-  - tensorflow
-  - xarray
+  - tensorflow=2.2.0
+  - xarray=0.16.2
   - jupyter
   - hvplot
   - cartopy
-  - pandas
-  - iris
-  - imageio
-  - dask
+  - pandas=1.0
+  - iris=2.4
+  - imageio=2.8
+  - dask=2.11
