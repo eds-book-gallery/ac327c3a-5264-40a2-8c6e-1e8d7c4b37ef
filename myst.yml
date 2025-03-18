@@ -4,9 +4,9 @@ extends:
   - https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook.yml
 project:
   id: ac327c3a-5264-40a2-8c6e-1e8d7c4b37ef
-  title: Exploring Land Cover Data (Impact Observatory) (Jupyter Notebook) published in the Environmental Data Science book
-  short_title: Land Cover Data (Impact Observatory)
-  abstract: Notebook developed to introduce manipulation and exploratory analysis of classified land use and cover data, using example data created by Impact Observatory from ESA Sentinel-2 imagery.
+  title: Sea ice forecasting using IceNet (Jupyter Notebook) published in the Environmental Data Science book
+  short_title: Monthly sea ice forecasting (IceNet)
+  abstract: Notebook developed to demonstrate IceNet, a deep learning sea ice forecasting system trained using climate simulations and observational data.
   authors:
     - id: acoca
       name: Alejandro Coca-Castro
