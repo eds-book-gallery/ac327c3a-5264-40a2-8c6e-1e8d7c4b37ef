@@ -1,12 +1,11 @@
 cff-version: 1.2.0
 message: Please cite the following works when using this project.
 abstract: >-
-  Notebook developed to introduce manipulation and exploratory analysis of
-  classified land use and cover data, using example data created by Impact
-  Observatory from ESA Sentinel-2 imagery.
+  Notebook developed to demonstrate IceNet, a deep learning sea ice forecasting
+  system trained using climate simulations and observational data.
 title: >-
-  Exploring Land Cover Data (Impact Observatory) (Jupyter Notebook) published in
-  the Environmental Data Science book
+  Sea ice forecasting using IceNet (Jupyter Notebook) published in the
+  Environmental Data Science book
 authors:
   - family-names: Coca-Castro
     given-names: Alejandro
@@ -26,10 +25,10 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.8311332
 keywords:
-  - environmental data science
-  - polar
-  - modelling
-  - deep learning
+  - Sea-Ice
+  - Modelling
+  - Standard
+  - Python
 license: MIT
 license-url: https://opensource.org/license/MIT
 repository: https://github.com/eds-book/ac327c3a-5264-40a2-8c6e-1e8d7c4b37ef

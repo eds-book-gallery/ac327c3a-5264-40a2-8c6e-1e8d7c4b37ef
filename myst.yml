@@ -44,10 +44,10 @@ project:
       name: British Antarctic Survey
   subject: Cryosphere
   keywords:
-    - environmental data science
-    - polar
-    - modelling
-    - deep learning
+    - Sea-Ice
+    - Modelling
+    - Standard
+    - Python
   funding: The IceNet project was supported by Wave 1 of The UKRI Strategic Priorities Fund under the EPSRC Grant EP/T001569/1, particularly the AI for Science’ theme within that grant and The Alan Turing Institute.
   venue:
     title: Environmental Data Science Book
