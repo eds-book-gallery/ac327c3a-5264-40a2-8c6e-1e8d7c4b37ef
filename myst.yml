@@ -42,9 +42,9 @@ project:
       name: The Alan Turing Institute
     - id: bas
       name: British Antarctic Survey
-  subject: Sea-Ice
+  subject: Cryosphere
   keywords:
-    - Sea-Ice
+    - Cryosphere
     - Modelling
     - Standard
     - Python
